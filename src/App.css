@@ -8,7 +8,7 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .h1 {
     animation: App-logo-spin infinite 20s linear;
   }
 }
@@ -24,9 +24,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +32,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  font-family: 'Reggae One';
+  font-size: 72px;
+  color: #0ccac4;
 }
